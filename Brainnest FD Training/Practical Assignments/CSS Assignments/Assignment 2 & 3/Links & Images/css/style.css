@@ -1,0 +1,55 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 25;
+  color: darkblue;
+  background-color: rgb(237, 196, 146);
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+#logo {
+  font-weight: 45;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  padding: 6% 6%;
+  text-decoration: none;
+  color: darkblue;
+  white-space: nowrap;
+  border: 1px solid darkblue;
+}
+
+nav a:hover {
+  background-color: darkblue;
+  color: rgb(237, 196, 146);
+}
+
+#myImage {
+  height: auto;
+  width: 250px;
+  border-radius: 50%;
+  border: 4px darkblue;
+  border-style: dotted dashed solid double;
+}
+#section1 {
+  padding: 3% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sec1Text {
+  padding: 5% 5%;
+  border-radius: 30%;
+  border: 4px darkblue;
+  border-style: dotted double;
+}

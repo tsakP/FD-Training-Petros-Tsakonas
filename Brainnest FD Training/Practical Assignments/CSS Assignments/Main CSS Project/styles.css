@@ -1,0 +1,26 @@
+#section1 {
+    background-color: #1f2937;
+}
+
+h3 {
+    font-weight: 24px;
+    color: #f9faf8;
+    justify-content: start;
+}
+
+a{
+    font-weight: 18px;
+    color: #e5e7eb;
+    padding-right: 1%;
+}
+header {
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
