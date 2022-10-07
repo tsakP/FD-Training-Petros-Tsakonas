@@ -38,6 +38,7 @@ a,
 .secondaryText {
   font-size: 18px;
   color: #e5e7eb;
+  font-weight: lighter;
 }
 #container1 {
   display: flex;
@@ -48,7 +49,7 @@ a,
   margin-top: -3%;
 }
 #signUpBtn {
-  padding: 10px 40px;
+  padding: 6px 38px;
   border-radius: 10px 10px 10px 10px;
   max-width: max-content;
   background-color: #3882f6;
@@ -106,4 +107,35 @@ a,
   text-align: right;
   margin-right: 150px;
   margin-top: -30px;
+}
+#section4 {
+  padding: 90px 370px;
+}
+.sec4Container {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 150px;
+  padding-right: 70px;
+  border-radius: 10px 10px 10px 10px;
+}
+#sec4Header {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.sec4Btn {
+  padding: 6px 38px;
+  border: 2px solid white;
+  border-radius: 10px 10px 10px 10px;
+  max-width: max-content;
+  font-size: 18px;
+  color: white;
+  margin-right: 100px;
+}
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 45px 0;
 }
